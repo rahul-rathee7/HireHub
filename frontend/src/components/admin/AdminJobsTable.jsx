@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '../ui/table'
-import { Avatar, AvatarImage } from '../ui/avatar'
 import { Popover, PopoverContent, PopoverTrigger } from '../ui/popover'
 import { Edit2, Eye, MoreHorizontal } from 'lucide-react'
 import { useSelector } from 'react-redux'
@@ -38,7 +37,7 @@ const AdminJobsTable = () => {
                 <TableBody>
                     {
                         filterJobs?.map((job) => (
-                            <tr>
+                            <tr key={job._id}>
                                 <TableCell>{job?.company?.name}</TableCell>
                                 <TableCell>{job?.title}</TableCell>
                                 <TableCell>{job?.createdAt.split("T")[0]}</TableCell>
