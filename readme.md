@@ -1,9 +1,9 @@
-### Job Portal - React.js, Express.js, and MongoDB
+# Job Portal - React.js, Express.js, and MongoDB
 ## Overview
 This project is a full-stack web application designed to serve as a job portal where employers can post job listings and job seekers can browse and apply for jobs. The application is built using React.js for the frontend, Express.js for the backend, and MongoDB as the database.
 
 ## Features
-# For Job Seekers
+### For Job Seekers
 <h1>Browse Jobs:</h1> View a list of available job postings.
 
 <h1>Search and Filter:</h1> Search for jobs by title, location, or company, and filter by job type, salary range, etc.
@@ -21,7 +21,7 @@ For Employers
 
 <h1>Company Profile:</h1> Create and manage a company profile.
 
-# Technologies Used
+### Technologies Used
 <h1>Frontend:</h1> React.js, React Router, Axios, Bootstrap/Material-UI
 
 <h1>Backend: Express.js, Node.js
@@ -33,7 +33,7 @@ For Employers
 <h1>Other Tools:</h1> Babel, Webpack, NPM/Yarn
 
 ## Getting Started
-# Prerequisites
+### Prerequisites
 Node.js and npm installed on your machine.
 
 MongoDB installed and running.
@@ -42,7 +42,7 @@ Installation
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/job-portal.git
+git clone https://github.com/rahul-rathee7/HireHub.git
 cd job-portal
 Install dependencies
 
@@ -55,13 +55,6 @@ cd ../server
 npm install
 
 ## Set up environment variables
-
-Create a .env file in the server directory and add your MongoDB URI and JWT secret key.
-
-.env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-Run the application
 
 Start the server and the client.
 
