@@ -43,15 +43,13 @@ Clone the repository
 
 bash
 git clone https://github.com/rahul-rathee7/HireHub.git
-cd job-portal
+cd HireHub
 Install dependencies
 
 Navigate to both the client and server directories and install the necessary dependencies.
 
 bash
-cd client
-npm install
-cd ../server
+cd frontend
 npm install
 
 ## Set up environment variables
@@ -59,10 +57,8 @@ npm install
 Start the server and the client.
 
 bash
-cd server
-npm start
-cd ../client
-npm start
+cd backend
+node index.js
 
 The React application will run on http://localhost:5173 and the Express server on http://localhost:8000.
 
@@ -70,12 +66,12 @@ The React application will run on http://localhost:5173 and the Express server o
 
 job-portal/
 │
-├── client/                  # Frontend React application
+├── frontend/                  # Frontend React application
 │   ├── public/              # Static assets
 │   ├── src/                 # React components, pages, and utilities
 │   └── package.json         # Frontend dependencies
 │
-├── server/                  # Backend Express application
+├── backend/                  # Backend Express application
 │   ├── config/              # Configuration files (e.g., database connection)
 │   ├── controllers/         # Route controllers
 │   ├── models/              # Mongoose models
