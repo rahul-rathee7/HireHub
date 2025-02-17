@@ -1,36 +1,36 @@
 # Job Portal - React.js, Express.js, and MongoDB
 ## Overview
-This project is a full-stack web application designed to serve as a job portal where employers can post job listings and job seekers can browse and apply for jobs. The application is built using React.js for the frontend, Express.js for the backend, and MongoDB as the database.
+This project is a full-stack web application designed to serve as a HireHub where employers can post job listings and job seekers can browse and apply for jobs. The application is built using React.js for the frontend, Express.js for the backend, and MongoDB as the database.
 
 ## Features
 ### For Job Seekers
-<h1>Browse Jobs:</h1> View a list of available job postings.
+<b>Browse Jobs:</b> View a list of available job postings.
 
-<h1>Search and Filter:</h1> Search for jobs by title, location, or company, and filter by job type, salary range, etc.
+<b>Search and Filter:</b> Search for jobs by title, location, or company, and filter by job type, salary range, etc.
 
-<h1>Apply for Jobs:</h1> Submit applications for jobs directly through the portal.
+<b>Apply for Jobs:</b> Submit applications for jobs directly through the portal.
 
-<h1>User Profile:</h1> Create and manage a personal profile, including resume upload and contact information.
+<b>User Profile:</b> Create and manage a personal profile, including resume upload and contact information.
 
-For Employers
-<h1>Post Jobs:</h1> Create and publish new job listings.
+### For Employers
+<b>Post Jobs:</b> Create and publish new job listings.
 
-<h1>Manage Listings:</h1> Edit or delete existing job postings.
+<b>Manage Listings:</b> Edit or delete existing job postings.
 
-<h1>View Applications:</h1> See a list of applicants for each job posting.
+<b>View Applications:</b> See a list of applicants for each job posting.
 
-<h1>Company Profile:</h1> Create and manage a company profile.
+<b>Company Profile:</b> Create and manage a company profile.
 
 ### Technologies Used
-<h1>Frontend:</h1> React.js, React Router, Axios, Bootstrap/Material-UI
+<b>Frontend:</b> React.js, React Router, Axios, Bootstrap/Material-UI
 
-<h1>Backend: Express.js, Node.js
+<b>Backend:</b> Express.js, Node.js
 
-<h1>Database:</h1> MongoDB, Mongoose
+<b>Database:</b> MongoDB, Mongoose
 
-<h1>Authentication:</h1> JSON Web Tokens (JWT)
+<b>Authentication:</b> JSON Web Tokens (JWT)
 
-<h1>Other Tools:</h1> Babel, Webpack, NPM/Yarn
+<b>Other Tools:</b> Babel, Webpack, NPM/Yarn
 
 ## Getting Started
 ### Prerequisites
