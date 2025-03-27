@@ -1,4 +1,5 @@
-# Job Portal - React.js, Express.js, and MongoDB
+# HireHub ( Job Portal )
+
 ## Overview
 This project is a full-stack web application designed to serve as a HireHub where employers can post job listings and job seekers can browse and apply for jobs. The application is built using React.js for the frontend, Express.js for the backend, and MongoDB as the database.
 
